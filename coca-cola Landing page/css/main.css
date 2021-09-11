@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > img{
+  width: 15%;
+  margin-left: 7%;
+}
+nav > ul{
+  display: flex;
+  margin-right: 7%;
+}
+ul > li{
+  margin-right: 1.5rem;
+}
+li > a{
+  text-decoration: none;
+  color: #fff;
+  font-family: system-ui;
+  font-size: 20px;
+}
+section > .box{
+  display: flex;
+}
+.sec1{
+  color: #fff;
+  padding: 7.5rem;
+}
+.sec1 > h3{
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+.sec1 > h4{
+  font-size: 2rem;
+  margin-bottom: 1.5%;
+}
+.sec1 > p{
+  font-size: 1rem;
+  margin-bottom: 3.5%;
+  line-height: 140%;
+}
+.sec1 > a{
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 1% 2.5%;
+  margin-top: 14%;
+}
+section .drinks{
+  display: flex;
+  justify-content: center;
+}
+.drinks > img{
+  width: 6%;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.drinks > img:hover{
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+}
